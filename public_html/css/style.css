@@ -1,0 +1,32 @@
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.course .course-title{
+    font-weight: bold;
+    align-items: end;
+}
+.course .course-title:after{
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #000;
+    flex: 1;
+}
+.course .course-list img{
+    height: 25px;
+}
+.course .course-list {
+    list-style: none;
+}
+.loading{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5) url('./assets/loading.gif') no-repeat center center;
+}
+
